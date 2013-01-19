@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:CharacterClasses="RpgLibrary.CharacterClasses">
+  <Asset Type="CharacterClasses:EntityData">
+    <EntityName>Warrior</EntityName>
+    <Strength>10</Strength>
+    <Dexterity>10</Dexterity>
+    <Cunning>10</Cunning>
+    <Willpower>10</Willpower>
+    <Magic>10</Magic>
+    <Constitution>10</Constitution>
+    <HealthFormula>10</HealthFormula>
+    <StaminaFormula>10</StaminaFormula>
+    <MagicFormula>10</MagicFormula>
+  </Asset>
+</XnaContent>

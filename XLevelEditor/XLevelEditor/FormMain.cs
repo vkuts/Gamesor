@@ -19,6 +19,8 @@ using GDIRectangle = System.Drawing.Rectangle;
 
 using RpgLibrary.WorldClasses;
 using XRpgLibrary.TileEngine;
+using XLevelEditor.Settings;
+using CommonLibrary;
 
 namespace XLevelEditor
 {
@@ -54,7 +56,7 @@ namespace XLevelEditor
         Texture2D shadow;
         Vector2 shadowPosition = Vector2.Zero;
 
-        #endregion
+        private SettingsManager _settingsManager = new SettingsManager();
 
         #region Property Region
 
@@ -62,6 +64,8 @@ namespace XLevelEditor
         {
             get { return mapDisplay.GraphicsDevice; }
         }
+
+#endregion
 
         #endregion
 
@@ -108,6 +112,8 @@ namespace XLevelEditor
 
             openTilesetToolStripMenuItem.Click += new EventHandler(openTilesetToolStripMenuItem_Click);
             openLayerToolStripMenuItem.Click += new EventHandler(openLayerToolStripMenuItem_Click);
+
+            
         }
 
         #endregion
@@ -676,12 +682,14 @@ namespace XLevelEditor
             {
                 for (int y = 0; y < brushWidth; y++)
                 {
-                    if (tile.Y + y >= ((MapLayer)layers[selected]).Height)
+                    if (tile.Y + y >= ((MapLayer)layers[selected]).Height
+                        || tile.Y + y < 0)
                         break;
 
                     for (int x = 0; x < brushWidth; x++)
                     {
-                        if (tile.X + x < ((MapLayer)layers[selected]).Width)
+                        if (tile.X + x < ((MapLayer)layers[selected]).Width
+                            && tile.X + x >= 0)
                             ((MapLayer)layers[selected]).SetTile(
                                 tile.X + x,
                                 tile.Y + y,
@@ -730,11 +738,14 @@ namespace XLevelEditor
 
             fbDialog.Description = "Select Game Folder";
             fbDialog.SelectedPath = Application.StartupPath;
+            fbDialog.SelectedPath = _settingsManager.DefaultGameSaveLocation;
 
             DialogResult result = fbDialog.ShowDialog();
 
             if (result == DialogResult.OK)
             {
+                _settingsManager.DefaultGameSaveLocation = fbDialog.SelectedPath;
+
                 if (!File.Exists(fbDialog.SelectedPath + @"\Game.xml"))
                 {
                     MessageBox.Show("Game not found", "Error");
@@ -750,8 +761,9 @@ namespace XLevelEditor
                 if (!Directory.Exists(MapPath))
                     Directory.CreateDirectory(MapPath);
 
-                XnaSerializer.Serialize<LevelData>(LevelPath + levelData.LevelName + ".xml", levelData);
-                XnaSerializer.Serialize<MapData>(MapPath + mapData.MapName + ".xml", mapData);
+
+                Serializer.SerializeToFile(levelData, LevelPath + levelData.LevelName + ".xml");
+                Serializer.SerializeToFile(mapData, MapPath + mapData.MapName + ".xml");
             }
         }
 
@@ -773,9 +785,9 @@ namespace XLevelEditor
 
             try
             {
-                XnaSerializer.Serialize<TilesetData>(
-                    sfDialog.FileName, 
-                    tileSetData[lbTileset.SelectedIndex]);
+                Serializer.SerializeToFile(
+                    tileSetData[lbTileset.SelectedIndex],
+                    sfDialog.FileName);
             }
             catch (Exception exc)
             {
@@ -820,7 +832,7 @@ namespace XLevelEditor
 
                 try
                 {
-                    XnaSerializer.Serialize<MapLayerData>(sfDialog.FileName, data);
+                    Serializer.SerializeToFile(data, sfDialog.FileName);
                 }
                 catch (Exception exc)
                 {
@@ -839,6 +851,7 @@ namespace XLevelEditor
             ofDialog.Filter = "Level Files (*.xml)|*.xml";
             ofDialog.CheckFileExists = true;
             ofDialog.CheckPathExists = true;
+            ofDialog.InitialDirectory = _settingsManager.DefaultLevelSaveLocation;
 
             DialogResult result = ofDialog.ShowDialog();
 
@@ -846,14 +859,16 @@ namespace XLevelEditor
                 return;
 
             string path = Path.GetDirectoryName(ofDialog.FileName);
+            // save the save location so that we can default to it later
+            _settingsManager.DefaultLevelSaveLocation = path;
 
             LevelData newLevel = null;
             MapData mapData = null;
 
             try
             {
-                newLevel = XnaSerializer.Deserialize<LevelData>(ofDialog.FileName);
-                mapData = XnaSerializer.Deserialize<MapData>(path + @"\Maps\" + newLevel.MapName + ".xml");
+                newLevel = Serializer.DeserializeFromFile<LevelData>(ofDialog.FileName);
+                mapData = Serializer.DeserializeFromFile<MapData>(path + @"\Maps\" + newLevel.MapName + ".xml");
             }
             catch (Exception exc)
             {
@@ -877,10 +892,11 @@ namespace XLevelEditor
                 tileSetData.Add(data);
                 lbTileset.Items.Add(data.TilesetName);
 
-                GDIImage image = (GDIImage)GDIBitmap.FromFile(data.TilesetImageName);
+                string imagePath = Path.Combine(_settingsManager.DefaultTileSetLocation, data.TilesetImageName);
+                GDIImage image = (GDIImage)GDIBitmap.FromFile(imagePath);
                 tileSetImages.Add(image);
 
-                using (Stream stream = new FileStream(data.TilesetImageName, FileMode.Open, FileAccess.Read))
+                using (Stream stream = new FileStream(imagePath, FileMode.Open, FileAccess.Read))
                 {
                     texture = Texture2D.FromStream(GraphicsDevice, stream);
                     tileSets.Add(
@@ -925,6 +941,8 @@ namespace XLevelEditor
             ofDialog.CheckPathExists = true;
             ofDialog.CheckFileExists = true;
 
+            ofDialog.InitialDirectory = _settingsManager.DefaultTileSetLocation;
+
             DialogResult result = ofDialog.ShowDialog();
 
             if (result != DialogResult.OK)
@@ -938,13 +956,18 @@ namespace XLevelEditor
             try
             {
                 data = XnaSerializer.Deserialize<TilesetData>(ofDialog.FileName);
-                using (Stream stream = new FileStream(data.TilesetImageName, FileMode.Open, FileAccess.Read))
+
+                // assume that the images are stored at relative paths to the tileset metadata file
+                var imageDir = Path.GetDirectoryName(ofDialog.FileName);
+                var imagePath = Path.Combine(imageDir, data.TilesetImageName);
+
+                using (Stream stream = new FileStream(imagePath, FileMode.Open, FileAccess.Read))
                 {
                     texture = Texture2D.FromStream(GraphicsDevice, stream);
                     stream.Close();
                 }
 
-                image = (GDIImage)GDIBitmap.FromFile(data.TilesetImageName);
+                image = (GDIImage)GDIBitmap.FromFile(imagePath);
 
                 tileset = new Tileset(
                     texture, 
@@ -952,6 +975,10 @@ namespace XLevelEditor
                     data.TilesHigh, 
                     data.TileWidthInPixels, 
                     data.TileHeightInPixels);
+
+                // save the tileset location, so that we can default the file open dialog to it later
+                _settingsManager.DefaultTileSetLocation = imageDir;
+
             }
             catch (Exception exc)
             {
@@ -998,6 +1025,7 @@ namespace XLevelEditor
 
             try
             {
+                //data = Serializer.DeserializeFromFile<MapLayerData>(ofDialog.FileName);
                 data = XnaSerializer.Deserialize<MapLayerData>(ofDialog.FileName);
             }
             catch (Exception exc)
@@ -1029,5 +1057,10 @@ namespace XLevelEditor
         }
 
         #endregion
+
+        private void isTilePassableCheckBox_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

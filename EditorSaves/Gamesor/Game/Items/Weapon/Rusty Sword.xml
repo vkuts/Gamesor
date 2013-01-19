@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ItemClasses="RpgLibrary.ItemClasses">
+  <Asset Type="ItemClasses:WeaponData">
+    <Name>Rusty Sword</Name>
+    <Type>Sword</Type>
+    <Price>10</Price>
+    <Weight>0</Weight>
+    <Equipped>false</Equipped>
+    <NumberHands>One</NumberHands>
+    <AttackValue>4</AttackValue>
+    <AttackModifier>1</AttackModifier>
+    <DamageEffectData>
+      <Name>Rusty Sword</Name>
+      <DamageType>Weapon</DamageType>
+      <AttackType>Health</AttackType>
+      <DieType>D4</DieType>
+      <NumberOfDice>1</NumberOfDice>
+      <Modifier>1</Modifier>
+    </DamageEffectData>
+    <AllowableClasses>
+      <Item>Warrior</Item>
+    </AllowableClasses>
+  </Asset>
+</XnaContent>

@@ -16,17 +16,25 @@ using XRpgLibrary.WorldClasses;
 using EyesOfTheDragon.Components;
 using XRpgLibrary.CharacterClasses;
 using RpgLibrary.CharacterClasses;
+using CommonLibrary;
+using RpgLibrary.WorldClasses;
+using NLog;
 
 namespace EyesOfTheDragon.GameScreens
 {
     public class LoadGameScreen : BaseGameState
     {
         #region Field Region
+            
+        const string _mapFilePath = @"D:\projects\xna\gamesor\EditorSaves\Gamesor\Game\Levels\Maps\Forest.xml";
+        const string _levelFilePath = @"D:\projects\XNA\Gamesor\EditorSaves\Gamesor\Game\Levels\Starting Level.xml";
 
         PictureBox backgroundImage;
         ListBox loadListBox;
         LinkLabel loadLinkLabel;
         LinkLabel exitLinkLabel;
+
+        Logger _logger = LogManager.GetCurrentClassLogger();
 
         #endregion
 
@@ -124,7 +132,11 @@ namespace EyesOfTheDragon.GameScreens
             Transition(ChangeType.Change, GameRef.GamePlayScreen);
 
             CreatePlayer();
-            CreateWorld();
+            
+            //CreateWorld();
+            var world = LoadWorld(_levelFilePath, _mapFilePath);
+
+            GamePlayScreen.World = world;
         }
 
         void loadListBox_Leave(object sender, EventArgs e)
@@ -212,6 +224,26 @@ namespace EyesOfTheDragon.GameScreens
             world.CurrentLevel = 0;
 
             GamePlayScreen.World = world;
+        }
+
+        private World LoadWorld(string levelFilePath, string mapFilePath)
+        {
+            LevelData level = null;
+            MapData map = null;
+
+            try
+            {
+                level = Serializer.DeserializeFromFile<LevelData>(levelFilePath);
+                map = Serializer.DeserializeFromFile<MapData>(mapFilePath);
+            }
+            catch (Exception e)
+            {
+                _logger.Error(string.Format("Failed to load world encoded in {0}, {1}", levelFilePath, mapFilePath), e);
+            }
+
+            World world = WorldFactory.Create(map, level, GameRef, GameRef.ScreenRectangle);
+
+            return world;
         }
 
         #endregion

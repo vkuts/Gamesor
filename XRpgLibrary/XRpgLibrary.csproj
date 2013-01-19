@@ -76,6 +76,7 @@
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml">
       <Private>False</Private>
     </Reference>
@@ -170,6 +171,7 @@
     <Compile Include="TileEngine\Tile.cs" />
     <Compile Include="TileEngine\TileMap.cs" />
     <Compile Include="TileEngine\Tileset.cs" />
+    <Compile Include="TileEngine\TilesetFactory.cs" />
     <Compile Include="TrapClasses\Trap.cs" />
     <Compile Include="TrapClasses\TrapData.cs" />
     <Compile Include="TrapClasses\TrapManager.cs" />
@@ -177,8 +179,11 @@
     <Compile Include="WorldClasses\LevelData.cs" />
     <Compile Include="WorldClasses\MapData.cs" />
     <Compile Include="WorldClasses\MapLayerData.cs" />
+    <Compile Include="WorldClasses\TerrainObject.cs" />
+    <Compile Include="WorldClasses\TileData.cs" />
     <Compile Include="WorldClasses\TilesetData.cs" />
     <Compile Include="WorldClasses\World.cs" />
+    <Compile Include="WorldClasses\WorldFactory.cs" />
     <Compile Include="WorldClasses\WorldManager.cs" />
   </ItemGroup>
   <ItemGroup />

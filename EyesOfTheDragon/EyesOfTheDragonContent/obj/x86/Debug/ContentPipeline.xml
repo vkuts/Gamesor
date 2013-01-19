@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Backgrounds\titlescreen.xnb</Output>
-      <Time>2010-11-27T10:41:48-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Backgrounds\titlescreen.xnb</Output>
+      <Time>2013-01-13T09:55:35.2491208-05:00</Time>
     </Item>
     <Item>
       <Source>GUI\leftarrowUp.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\GUI\leftarrowUp.xnb</Output>
-      <Time>2010-11-29T11:07:14-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\GUI\leftarrowUp.xnb</Output>
+      <Time>2013-01-13T09:55:35.2541211-05:00</Time>
     </Item>
     <Item>
       <Source>GUI\rightarrowUp.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\GUI\rightarrowUp.xnb</Output>
-      <Time>2010-11-29T12:28:30-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\GUI\rightarrowUp.xnb</Output>
+      <Time>2013-01-13T09:55:35.2551211-05:00</Time>
     </Item>
     <Item>
       <Source>GUI\StopBar.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\GUI\StopBar.xnb</Output>
-      <Time>2010-11-29T12:28:30-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\GUI\StopBar.xnb</Output>
+      <Time>2013-01-13T09:55:35.2541211-05:00</Time>
     </Item>
     <Item>
       <Source>Tilesets\tileset1.png</Source>
@@ -46,8 +46,8 @@
         <Data Key="TextureFormat">NoChange</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Tilesets\tileset1.xnb</Output>
-      <Time>2010-12-01T21:36:22-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Tilesets\tileset1.xnb</Output>
+      <Time>2013-01-13T09:55:35.428131-05:00</Time>
     </Item>
     <Item>
       <Source>Tilesets\tileset2.png</Source>
@@ -55,8 +55,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Tilesets\tileset2.xnb</Output>
-      <Time>2010-12-05T14:34:54-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Tilesets\tileset2.xnb</Output>
+      <Time>2013-01-13T09:55:35.4291311-05:00</Time>
     </Item>
     <Item>
       <Source>PlayerSprites\femalefighter.png</Source>
@@ -64,8 +64,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\femalefighter.xnb</Output>
-      <Time>2010-12-07T14:44:10-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\femalefighter.xnb</Output>
+      <Time>2013-01-13T09:55:35.4201306-05:00</Time>
     </Item>
     <Item>
       <Source>PlayerSprites\femalepriest.png</Source>
@@ -73,8 +73,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\femalepriest.xnb</Output>
-      <Time>2010-12-07T14:44:10-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\femalepriest.xnb</Output>
+      <Time>2013-01-13T09:55:35.4211306-05:00</Time>
     </Item>
     <Item>
       <Source>PlayerSprites\femalerogue.png</Source>
@@ -82,8 +82,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\femalerogue.xnb</Output>
-      <Time>2010-12-07T14:44:10-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\femalerogue.xnb</Output>
+      <Time>2013-01-13T09:55:35.4221307-05:00</Time>
     </Item>
     <Item>
       <Source>PlayerSprites\femalewizard.png</Source>
@@ -91,8 +91,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\femalewizard.xnb</Output>
-      <Time>2010-12-07T14:44:10-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\femalewizard.xnb</Output>
+      <Time>2013-01-13T09:55:35.4231307-05:00</Time>
     </Item>
     <Item>
       <Source>PlayerSprites\malefighter.png</Source>
@@ -100,8 +100,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\malefighter.xnb</Output>
-      <Time>2010-12-07T14:44:10-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\malefighter.xnb</Output>
+      <Time>2013-01-13T09:55:35.4241308-05:00</Time>
     </Item>
     <Item>
       <Source>PlayerSprites\malepriest.png</Source>
@@ -109,8 +109,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\malepriest.xnb</Output>
-      <Time>2010-12-07T14:44:10-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\malepriest.xnb</Output>
+      <Time>2013-01-13T09:55:35.4251309-05:00</Time>
     </Item>
     <Item>
       <Source>PlayerSprites\malerogue.png</Source>
@@ -118,8 +118,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\malerogue.xnb</Output>
-      <Time>2010-12-07T14:44:10-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\malerogue.xnb</Output>
+      <Time>2013-01-13T09:55:35.4261309-05:00</Time>
     </Item>
     <Item>
       <Source>PlayerSprites\malewizard.png</Source>
@@ -127,8 +127,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\malewizard.xnb</Output>
-      <Time>2010-12-07T14:44:10-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\PlayerSprites\malewizard.xnb</Output>
+      <Time>2013-01-13T09:55:35.427131-05:00</Time>
     </Item>
     <Item>
       <Source>GUI\listBoxImage.png</Source>
@@ -136,8 +136,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\GUI\listBoxImage.xnb</Output>
-      <Time>2011-01-11T07:17:16-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\GUI\listBoxImage.xnb</Output>
+      <Time>2013-01-13T09:55:35.2551211-05:00</Time>
     </Item>
     <Item>
       <Source>ObjectSprites\containers.png</Source>
@@ -145,8 +145,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\ObjectSprites\containers.xnb</Output>
-      <Time>2011-01-27T17:46:30-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\ObjectSprites\containers.xnb</Output>
+      <Time>2013-01-13T09:55:35.4171304-05:00</Time>
     </Item>
     <Item>
       <Source>ObjectSprites\itemimages.png</Source>
@@ -154,8 +154,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\ObjectSprites\itemimages.xnb</Output>
-      <Time>2011-02-12T19:03:18-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\ObjectSprites\itemimages.xnb</Output>
+      <Time>2013-01-13T09:55:35.4191305-05:00</Time>
     </Item>
     <Item>
       <Source>Fonts\ControlFont.spritefont</Source>
@@ -163,8 +163,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Fonts\ControlFont.xnb</Output>
-      <Time>2010-11-27T18:44:54-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Fonts\ControlFont.xnb</Output>
+      <Time>2013-01-13T09:55:35.253121-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Chests\Big Gold Chest.xml</Source>
@@ -172,8 +172,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Chests\Big Gold Chest.xnb</Output>
-      <Time>2011-08-10T19:04:24.4079115-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Chests\Big Gold Chest.xnb</Output>
+      <Time>2013-01-13T09:55:35.2571212-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Chests\Broken Crate.xml</Source>
@@ -181,8 +181,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Chests\Broken Crate.xnb</Output>
-      <Time>2011-08-10T19:04:24.4089115-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Chests\Broken Crate.xnb</Output>
+      <Time>2013-01-13T09:55:35.2581213-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Chests\Gold Chest.xml</Source>
@@ -190,8 +190,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Chests\Gold Chest.xnb</Output>
-      <Time>2011-08-10T19:04:24.4089115-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Chests\Gold Chest.xnb</Output>
+      <Time>2013-01-13T09:55:35.2591214-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Chests\Plain Chest.xml</Source>
@@ -199,8 +199,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Chests\Plain Chest.xnb</Output>
-      <Time>2011-08-10T19:04:24.4099116-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Chests\Plain Chest.xnb</Output>
+      <Time>2013-01-13T09:55:35.2601214-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Chests\Rusty Chest.xml</Source>
@@ -208,8 +208,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Chests\Rusty Chest.xnb</Output>
-      <Time>2011-08-10T19:04:24.4109116-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Chests\Rusty Chest.xnb</Output>
+      <Time>2013-01-13T09:55:35.2611215-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Classes\Fighter.xml</Source>
@@ -217,8 +217,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Classes\Fighter.xnb</Output>
-      <Time>2011-08-10T19:04:24.3689092-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Classes\Fighter.xnb</Output>
+      <Time>2013-01-13T09:55:35.2631216-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Classes\Priest.xml</Source>
@@ -226,8 +226,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Classes\Priest.xnb</Output>
-      <Time>2011-08-10T19:04:24.3709094-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Classes\Priest.xnb</Output>
+      <Time>2013-01-13T09:55:35.2641216-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Classes\Rogue.xml</Source>
@@ -235,8 +235,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Classes\Rogue.xnb</Output>
-      <Time>2011-08-10T19:04:24.3719094-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Classes\Rogue.xnb</Output>
+      <Time>2013-01-13T09:55:35.2651217-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Classes\Wizard.xml</Source>
@@ -244,8 +244,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Classes\Wizard.xnb</Output>
-      <Time>2011-08-10T19:04:24.3729095-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Classes\Wizard.xnb</Output>
+      <Time>2013-01-13T09:55:35.2661218-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Game.xml</Source>
@@ -253,8 +253,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Game.xnb</Output>
-      <Time>2011-08-10T19:04:24.3679092-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Game.xnb</Output>
+      <Time>2013-01-13T09:55:35.2671218-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Chain Mail Boots.xml</Source>
@@ -262,8 +262,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Chain Mail Boots.xnb</Output>
-      <Time>2011-08-10T19:04:24.3749096-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Chain Mail Boots.xnb</Output>
+      <Time>2013-01-13T09:55:35.2681219-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Chain Mail Gloves.xml</Source>
@@ -271,8 +271,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Chain Mail Gloves.xnb</Output>
-      <Time>2011-08-10T19:04:24.3759096-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Chain Mail Gloves.xnb</Output>
+      <Time>2013-01-13T09:55:35.2691219-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Chain Mail Helm.xml</Source>
@@ -280,8 +280,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Chain Mail Helm.xnb</Output>
-      <Time>2011-08-10T19:04:24.3779098-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Chain Mail Helm.xnb</Output>
+      <Time>2013-01-13T09:55:35.270122-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Chain Mail.xml</Source>
@@ -289,8 +289,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Chain Mail.xnb</Output>
-      <Time>2011-08-10T19:04:24.3789098-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Chain Mail.xnb</Output>
+      <Time>2013-01-13T09:55:35.271122-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Leather Armor.xml</Source>
@@ -298,8 +298,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Leather Armor.xnb</Output>
-      <Time>2011-08-10T19:04:24.3809099-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Leather Armor.xnb</Output>
+      <Time>2013-01-13T09:55:35.2721221-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Leather Boots.xml</Source>
@@ -307,8 +307,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Leather Boots.xnb</Output>
-      <Time>2011-08-10T19:04:24.38191-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Leather Boots.xnb</Output>
+      <Time>2013-01-13T09:55:35.2731222-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Leather Gloves.xml</Source>
@@ -316,8 +316,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Leather Gloves.xnb</Output>
-      <Time>2011-08-10T19:04:24.3839101-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Leather Gloves.xnb</Output>
+      <Time>2013-01-13T09:55:35.2741222-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Leather Helm.xml</Source>
@@ -325,8 +325,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Leather Helm.xnb</Output>
-      <Time>2011-08-10T19:04:24.3849102-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Leather Helm.xnb</Output>
+      <Time>2013-01-13T09:55:35.2751223-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Light Robes.xml</Source>
@@ -334,8 +334,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Light Robes.xnb</Output>
-      <Time>2011-08-10T19:04:24.3869103-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Light Robes.xnb</Output>
+      <Time>2013-01-13T09:55:35.2771224-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Medium Robes.xml</Source>
@@ -343,8 +343,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Medium Robes.xnb</Output>
-      <Time>2011-08-10T19:04:24.3879103-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Medium Robes.xnb</Output>
+      <Time>2013-01-13T09:55:35.2781224-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Studded Leather Armor.xml</Source>
@@ -352,8 +352,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Studded Leather Armor.xnb</Output>
-      <Time>2011-08-10T19:04:24.3889104-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Studded Leather Armor.xnb</Output>
+      <Time>2013-01-13T09:55:35.2791225-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Studded Leather Boots.xml</Source>
@@ -361,8 +361,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Studded Leather Boots.xnb</Output>
-      <Time>2011-08-10T19:04:24.3899104-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Studded Leather Boots.xnb</Output>
+      <Time>2013-01-13T09:55:35.2801226-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Studded Leather Gloves.xml</Source>
@@ -370,8 +370,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Studded Leather Gloves.xnb</Output>
-      <Time>2011-08-10T19:04:24.3919106-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Studded Leather Gloves.xnb</Output>
+      <Time>2013-01-13T09:55:35.2811226-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Armor\Studded Leather Helm.xml</Source>
@@ -379,8 +379,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Studded Leather Helm.xnb</Output>
-      <Time>2011-08-10T19:04:24.3929106-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Armor\Studded Leather Helm.xnb</Output>
+      <Time>2013-01-13T09:55:35.2821227-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Shield\Heavy Tower Shield.xml</Source>
@@ -388,8 +388,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Heavy Tower Shield.xnb</Output>
-      <Time>2011-08-10T19:04:24.3949107-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Heavy Tower Shield.xnb</Output>
+      <Time>2013-01-13T09:55:35.2831227-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Shield\Large Kite Shield.xml</Source>
@@ -397,8 +397,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Large Kite Shield.xnb</Output>
-      <Time>2011-08-10T19:04:24.3959108-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Large Kite Shield.xnb</Output>
+      <Time>2013-01-13T09:55:35.2841228-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Shield\Large Metal Shield.xml</Source>
@@ -406,8 +406,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Large Metal Shield.xnb</Output>
-      <Time>2011-08-10T19:04:24.3969108-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Large Metal Shield.xnb</Output>
+      <Time>2013-01-13T09:55:35.2861229-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Shield\Large Wooden Shield.xml</Source>
@@ -415,8 +415,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Large Wooden Shield.xnb</Output>
-      <Time>2011-08-10T19:04:24.3979109-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Large Wooden Shield.xnb</Output>
+      <Time>2013-01-13T09:55:35.287123-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Shield\Medium Metal Shield.xml</Source>
@@ -424,8 +424,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Medium Metal Shield.xnb</Output>
-      <Time>2011-08-10T19:04:24.398911-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Medium Metal Shield.xnb</Output>
+      <Time>2013-01-13T09:55:35.288123-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Shield\Medium Wooden Shield.xml</Source>
@@ -433,8 +433,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Medium Wooden Shield.xnb</Output>
-      <Time>2011-08-10T19:04:24.398911-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Medium Wooden Shield.xnb</Output>
+      <Time>2013-01-13T09:55:35.2891231-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Shield\Small Metal Shield.xml</Source>
@@ -442,8 +442,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Small Metal Shield.xnb</Output>
-      <Time>2011-08-10T19:04:24.399911-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Small Metal Shield.xnb</Output>
+      <Time>2013-01-13T09:55:35.2901231-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Shield\Small Wooded Shield.xml</Source>
@@ -451,8 +451,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Small Wooded Shield.xnb</Output>
-      <Time>2011-08-10T19:04:24.399911-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Shield\Small Wooded Shield.xnb</Output>
+      <Time>2013-01-13T09:55:35.2911232-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Keys\Golden Key.xml</Source>
@@ -460,8 +460,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Keys\Golden Key.xnb</Output>
-      <Time>2011-08-10T19:04:24.4109116-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Keys\Golden Key.xnb</Output>
+      <Time>2013-01-13T09:55:35.306124-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Keys\Rusty Key.xml</Source>
@@ -469,8 +469,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Keys\Rusty Key.xnb</Output>
-      <Time>2011-08-10T19:04:24.4119117-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Keys\Rusty Key.xnb</Output>
+      <Time>2013-01-13T09:55:35.3071241-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Skills\Bartering.xml</Source>
@@ -478,8 +478,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Skills\Bartering.xnb</Output>
-      <Time>2011-08-10T19:04:24.4119117-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Skills\Bartering.xnb</Output>
+      <Time>2013-01-13T09:55:35.3641274-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Skills\Herbalism.xml</Source>
@@ -487,8 +487,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Skills\Herbalism.xnb</Output>
-      <Time>2011-08-10T19:04:24.4129118-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Skills\Herbalism.xnb</Output>
+      <Time>2013-01-13T09:55:35.3651274-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Skills\Poison Making.xml</Source>
@@ -496,8 +496,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Skills\Poison Making.xnb</Output>
-      <Time>2011-08-10T19:04:24.4129118-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Skills\Poison Making.xnb</Output>
+      <Time>2013-01-13T09:55:35.3661275-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Skills\Trap Making.xml</Source>
@@ -505,8 +505,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Skills\Trap Making.xnb</Output>
-      <Time>2011-08-10T19:04:24.4139118-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Skills\Trap Making.xnb</Output>
+      <Time>2013-01-13T09:55:35.4161303-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Acolyte Staff.xml</Source>
@@ -514,8 +514,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Acolyte Staff.xnb</Output>
-      <Time>2011-08-10T19:04:24.4029112-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Acolyte Staff.xnb</Output>
+      <Time>2013-01-13T09:55:35.2921232-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Apprentice Staff.xml</Source>
@@ -523,8 +523,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Apprentice Staff.xnb</Output>
-      <Time>2011-08-10T19:04:24.4029112-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Apprentice Staff.xnb</Output>
+      <Time>2013-01-13T09:55:35.2931233-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Battle Axe.xml</Source>
@@ -532,8 +532,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Battle Axe.xnb</Output>
-      <Time>2011-08-10T19:04:24.4079115-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Battle Axe.xnb</Output>
+      <Time>2013-01-13T09:55:35.2941234-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Broad Sword.xml</Source>
@@ -541,8 +541,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Broad Sword.xnb</Output>
-      <Time>2011-08-10T19:04:24.4059114-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Broad Sword.xnb</Output>
+      <Time>2013-01-13T09:55:35.2951234-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Club.xml</Source>
@@ -550,8 +550,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Club.xnb</Output>
-      <Time>2011-08-10T19:04:24.4009111-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Club.xnb</Output>
+      <Time>2013-01-13T09:55:35.2961235-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Dagger.xml</Source>
@@ -559,8 +559,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Dagger.xnb</Output>
-      <Time>2011-08-10T19:04:24.4039112-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Dagger.xnb</Output>
+      <Time>2013-01-13T09:55:35.2971235-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Flail.xml</Source>
@@ -568,8 +568,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Flail.xnb</Output>
-      <Time>2011-08-10T19:04:24.4019111-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Flail.xnb</Output>
+      <Time>2013-01-13T09:55:35.2981236-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Great Sword.xml</Source>
@@ -577,8 +577,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Great Sword.xnb</Output>
-      <Time>2011-08-10T19:04:24.4059114-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Great Sword.xnb</Output>
+      <Time>2013-01-13T09:55:35.2991236-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Halberd.xml</Source>
@@ -586,8 +586,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Halberd.xnb</Output>
-      <Time>2011-08-10T19:04:24.4069114-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Halberd.xnb</Output>
+      <Time>2013-01-13T09:55:35.3011238-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Long Sword.xml</Source>
@@ -595,8 +595,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Long Sword.xnb</Output>
-      <Time>2011-08-10T19:04:24.4049113-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Long Sword.xnb</Output>
+      <Time>2013-01-13T09:55:35.3021238-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Mace.xml</Source>
@@ -604,8 +604,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Mace.xnb</Output>
-      <Time>2011-08-10T19:04:24.4019111-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Mace.xnb</Output>
+      <Time>2013-01-13T09:55:35.3031239-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\Short Sword.xml</Source>
@@ -613,8 +613,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Short Sword.xnb</Output>
-      <Time>2011-08-10T19:04:24.4049113-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\Short Sword.xnb</Output>
+      <Time>2013-01-13T09:55:35.3041239-05:00</Time>
     </Item>
     <Item>
       <Source>Game\Items\Weapon\War Axe.xml</Source>
@@ -622,8 +622,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\War Axe.xnb</Output>
-      <Time>2011-08-10T19:04:24.4069114-04:00</Time>
+      <Output>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\Game\Items\Weapon\War Axe.xnb</Output>
+      <Time>2013-01-13T09:55:35.305124-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -631,15 +631,15 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragonContent\</RootDirectory>
-      <LoggerRootDirectory>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragonContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragonContent\</RootDirectory>
+      <LoggerRootDirectory>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragonContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\projects\XNA\Gamesor\EyesOfTheDragon\EyesOfTheDragon\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\XRpgLibrary\bin\x86\Debug\XRpgLibrary.dll</Key>
-        <Value>2011-08-12T13:07:08.3587542-04:00</Value>
+        <Key>D:\projects\XNA\Gamesor\XRpgLibrary\bin\x86\Debug\XRpgLibrary.dll</Key>
+        <Value>2013-01-19T00:49:02.5277689-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
@@ -667,7 +667,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-05-04T13:44:22.1408649-04:00</Value>
+        <Value>2011-10-03T22:03:16.9912027-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

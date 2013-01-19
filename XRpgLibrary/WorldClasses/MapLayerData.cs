@@ -2,27 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Runtime.Serialization;
 
 namespace RpgLibrary.WorldClasses
-{    
-    public struct Tile
-    {
-        public int TileIndex;
-        public int TileSetIndex;
-
-        public Tile(int tileIndex, int tileSetIndex)
-        {
-            TileIndex = tileIndex;
-            TileSetIndex = tileSetIndex;
-        }
-    }
-
+{
+    [DataContract]
     public class MapLayerData
     {
+        [DataMember]
         public string MapLayerName;
+        [DataMember]
         public int Width;
+        [DataMember]
         public int Height;
-        public Tile[] Layer;
+        [DataMember]
+        public TileData[] Layer;
 
         private MapLayerData()
         {
@@ -34,7 +28,7 @@ namespace RpgLibrary.WorldClasses
             Width = width;
             Height = height;
 
-            Layer = new Tile[height * width];
+            Layer = new TileData[height * width];
         }
 
         public MapLayerData(string mapLayerName, int width, int height, int tileIndex, int tileSet)
@@ -43,26 +37,26 @@ namespace RpgLibrary.WorldClasses
             Width = width;
             Height = height;
 
-            Layer = new Tile[height * width];
+            Layer = new TileData[height * width];
 
-            Tile tile = new Tile(tileIndex, tileSet);
+            TileData tile = new TileData(tileIndex, tileSet);
 
             for (int y = 0; y < height; y++)
                 for (int x = 0; x < width; x++)
                     SetTile(x, y, tile);
         }
 
-        public void SetTile(int x, int y, Tile tile)
+        public void SetTile(int x, int y, TileData tile)
         {
             Layer[y * Width + x] = tile;
         }
 
         public void SetTile(int x, int y, int tileIndex, int tileSet)
         {
-            Layer[y * Width + x] = new Tile(tileIndex, tileSet);
+            Layer[y * Width + x] = new TileData(tileIndex, tileSet);
         }
 
-        public Tile GetTile(int x, int y)
+        public TileData GetTile(int x, int y)
         {
             return Layer[y * Width + x];
         }

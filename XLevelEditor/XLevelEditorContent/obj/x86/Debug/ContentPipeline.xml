@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\XLevelEditor\XLevelEditor\bin\x86\Debug\Content\cursor.xnb</Output>
-      <Time>2011-03-07T16:13:36-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\XLevelEditor\XLevelEditor\bin\x86\Debug\Content\cursor.xnb</Output>
+      <Time>2013-01-13T09:55:35.7211478-05:00</Time>
     </Item>
     <Item>
       <Source>grid.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\XLevelEditor\XLevelEditor\bin\x86\Debug\Content\grid.xnb</Output>
-      <Time>2011-03-07T16:13:46-05:00</Time>
+      <Output>D:\projects\XNA\Gamesor\XLevelEditor\XLevelEditor\bin\x86\Debug\Content\grid.xnb</Output>
+      <Time>2013-01-13T09:55:35.7221478-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -25,10 +25,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\XLevelEditor\XLevelEditorContent\</RootDirectory>
-      <LoggerRootDirectory>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\XLevelEditor\XLevelEditor\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\XLevelEditor\XLevelEditorContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\Jamie\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\XLevelEditor\XLevelEditor\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\projects\XNA\Gamesor\XLevelEditor\XLevelEditorContent\</RootDirectory>
+      <LoggerRootDirectory>D:\projects\XNA\Gamesor\XLevelEditor\XLevelEditor\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\projects\XNA\Gamesor\XLevelEditor\XLevelEditorContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\projects\XNA\Gamesor\XLevelEditor\XLevelEditor\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -57,7 +57,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-05-04T13:44:22.1408649-04:00</Value>
+        <Value>2011-10-03T22:03:16.9912027-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

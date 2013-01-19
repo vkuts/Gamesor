@@ -1,11 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<XnaContent xmlns:WorldClasses="RpgLibrary.WorldClasses">
-  <Asset Type="WorldClasses:TilesetData">
-    <TilesetName>Village Tileset</TilesetName>
-    <TilesetImageName>C:\Users\Jamie\Documents\Visual Studio 2010\Projects\RPG\EyesOfTheDragon\EyesOfTheDragon\EyesOfTheDragonContent\Tilesets\tileset1.png</TilesetImageName>
-    <TileWidthInPixels>32</TileWidthInPixels>
-    <TileHeightInPixels>32</TileHeightInPixels>
-    <TilesWide>8</TilesWide>
-    <TilesHigh>8</TilesHigh>
-  </Asset>
-</XnaContent>
+<TilesetData xmlns="http://schemas.datacontract.org/2004/07/RpgLibrary.WorldClasses" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><TileHeightInPixels>32</TileHeightInPixels><TileWidthInPixels>32</TileWidthInPixels><TilesHigh>8</TilesHigh><TilesWide>8</TilesWide><TilesetImageName>tileset1.png</TilesetImageName><TilesetName>Village Tileset</TilesetName></TilesetData>

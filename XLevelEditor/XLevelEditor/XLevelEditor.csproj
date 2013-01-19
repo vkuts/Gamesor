@@ -147,6 +147,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="ServiceContainer.cs" />
+    <Compile Include="Settings\Settings.cs" />
+    <Compile Include="Settings\SettingsManager.cs" />
     <Compile Include="XnaSerializer.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +156,15 @@
     <Content Include="GameThumbnail.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\CommonLibrary\CommonLibrary.csproj">
+      <Project>{9983F16F-7521-4B0F-83D6-69CD8632FCD4}</Project>
+      <Name>CommonLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EyesOfTheDragon\EyesOfTheDragonContent\EyesOfTheDragonContent.contentproj">
+      <Project>{CAB0287F-1CBB-4429-B49C-A0816D2A9D02}</Project>
+      <Name>EyesOfTheDragonContent %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
     <ProjectReference Include="..\..\XRpgLibrary\XRpgLibrary.csproj">
       <Project>{85F42785-7311-4FBE-AB2C-C8F4254BDEA7}</Project>
       <Name>XRpgLibrary</Name>
